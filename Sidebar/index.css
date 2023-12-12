@@ -1,0 +1,98 @@
+body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            /* position: relative; */
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 20rem;
+            background-color: cadetblue;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+            transition: transform 2s ease-in-out;
+        }
+     
+        .ishidden{
+            transform: translateX(-100%);
+        }
+        svg{
+           
+            text-align: center;
+            font-size: 2.5rem;
+            
+            font-weight: 400;
+            position: absolute;
+            right:-80px;
+            top: 30px;
+            /* background-color: cadetblue; */
+            /* transform: translateX(-300px); */
+        }
+        svg:hover{
+            color: beige;
+        }
+
+        /* .container:hover{
+            transform:translateX(-500px)
+        } */
+        /* .link{
+            list-style: none;
+            height: 50%;
+            font-size: 1.7rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-;
+            border: 2px solid black;
+            /* align-items: center; */
+        /* } */
+
+        a{
+            text-decoration: underline;
+            color: white;
+            display: block;
+            font-size: 2rem;
+      /* margin-left: 5.5rem; */
+            text-align: center;
+            padding: .5rem;
+      
+            /* border: 2px solid black; */
+
+        }
+
+    a:hover{
+        text-decoration: none;
+        background-color: wheat;
+        color: black;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        right: -2rem;
+
+    }
+    .hamburger{
+        display:none;
+        position: absolute;
+        right: -3rem;
+        top: 2.5rem;
+    }
+    #cross{
+        display: block;
+    }
+
+    .ishidden{
+        #cross>.hamburger {
+            display:inline;
+        }
+        #cross>.close{
+            display:none;
+        }
+        
+    }

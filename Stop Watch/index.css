@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+.container {
+    text-align: center;
+    font-size: 2.5rem;
+    /* border: 1px solid black; */
+    padding: 4rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px rgb(171, 171, 171);
+
+}
+button{
+    padding: .5rem;
+    padding-inline:1.5rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+    border: none;
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+button:focus{   
+    box-shadow: 3px 3px 10px 1px rgb(12, 12, 12);
+}

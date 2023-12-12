@@ -1,0 +1,12 @@
+<svg width="88" height="104" viewBox="0 0 88 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M86.2052 102.352L2 1.99999" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<path d="M85.8273 1.5741L1.62208 101.926" stroke="black" stroke-width="3" stroke-linecap="round"/>
+</svg>
+
+
+<!-- hamburger.svg -->
+<svg width="73" height="28" viewBox="0 0 73 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 1L73 1" stroke="black"/>
+<path d="M0 15L73 15" stroke="black"/>
+<path d="M0 27L73 27" stroke="black"/>
+</svg>

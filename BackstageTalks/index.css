@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-snap-type:  mandatory;
+    background-color: #ff608c;
+    overflow-x: hidden;
+    transition: background-color 1s ease;
+}
+
+div{
+    display:flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    padding: 25px 15px 15px 15px;
+    font-size: 20px;
+    align-items: center;
+   
+}
+header{
+    position: fixed;
+}
+header > a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    /* display: none;  [or] */
+    visibility: hidden;
+}
+
+img{
+    width:7em;
+    height: .7em;
+  
+    /* padding-top: 1em; */
+   
+}
+.Images img{
+    min-width: 40%;
+    height: auto;
+    margin:  0 auto;
+   
+}
+
+.center1{
+    position: relative;
+    top:-30px;
+}
+.issueNo{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    line-height: 0;
+}
+ .links{
+    font-size: 13px;
+    display: block;
+    text-align: center;
+}
+section::after{
+    margin-bottom: 40em;
+}
+.buyhere{
+    line-height:0.5;
+    font-size: 1em;
+    font-weight: 50;
+}
+.center a{
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+footer{
+
+    text-align: center;
+
+}
+.footer{
+
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+}
+footer a{
+    color: black;
+    text-align: center;
+}
+#copyright{
+    margin: 0;
+    padding-left: 10px;
+    color: rgb(119, 117, 117);
+}
+footer p{
+    /* margin-top: 15px; */
+    
+    font-weight:600;
+ 
+}
+.center1{
+    /* background-color: #ff608c; */
+    z-index: -1;
+}
+
+
+.menu {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    width: 200px;
+    text-align: right;
+    display: none;
+    z-index: 3;
+    list-style: none;
+    
+    font-size: 18px;
+    line-height: 1.6;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-bottom: 0;
+    height: 100vh;
+scroll-behavior: smooth;
+}
+
+.buyhere > a:hover,
+.issueNo > a:hover{
+text-decoration: underline;
+}
+
+
+
+@media(min-width:1010px){
+    header a{
+        visibility:visible;
+        /* [or]  display: contents; */
+    }
+    img{
+        width:9em;
+        height: 1em;
+        /* padding-top: 1em; */
+       
+    }
+    .issueNo{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        margin: 0;
+        line-height: .5;
+    }
+    .links{
+        font-size: 16px;
+        display: block;
+        text-align: center;
+    }
+    .Images img{
+        min-width: 29%;
+        height: auto;
+        margin: auto;
+    }
+    footer{
+        position: fixed;
+        left: 15px;
+        top: 440px;
+        width: 400px;
+    }
+    
+    .footer{
+        font-size: 1.25em;
+        font-weight: 5100;
+        position: absolute;
+        top: 50%;
+        left: 1%;
+        text-align: left;
+        max-width: 400px;
+        
+    }
+   .buyhere > a:hover,
+   .issueNo > a:hover{
+text-decoration: underline;
+   }
+  
+    #copyright{
+        /* position: fixed;
+   left: 15px;
+    top: 570px; */
+        font-size: .75em;
+        font-weight:300;
+        color: rgb(110, 109, 109);
+        margin-top: 1px;
+        padding-left: 20px;
+    }
+   #privacy{
+    padding-left: 6dvh;
+   }
+   .contactcontainer{
+    position: fixed;
+    right: 15px;
+    top: 20px;
+   }
+   .contact{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* .footer {
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    width: 320px;
+    margin-top: 0;
+} */
+.menuContainer{
+    position: fixed;
+   right: 20px;
+    bottom: 20px;
+}
+.menu{
+    font-weight: 300;
+    display: block;
+   
+}
+section{
+    height: 100vh;
+}
+
+}
+/* @media (min-width: 992px) and (min-height: 650px){
+    
+   
+   .contact{
+        text-align: right;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 22px;
+        width: 320px;
+        margin-top: 0;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media (max-width: 991px) {
+    footer{
+        position: relative;
+    }
+    .footer {
+        margin-top: 0px;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        width: auto;
+    }
+} */
